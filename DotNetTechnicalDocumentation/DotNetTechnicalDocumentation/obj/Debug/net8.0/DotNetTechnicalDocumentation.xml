@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DotNetTechnicalDocumentation</name>
+    </assembly>
+    <members>
+        <member name="T:DotNetTechnicalDocumentation.Controllers.ProductsController">
+            <summary>
+            Provides endpoints for retrieving product information.
+            </summary>
+        </member>
+        <member name="M:DotNetTechnicalDocumentation.Controllers.ProductsController.GetProducts">
+            <summary>
+            Retrieves all available products.
+            </summary>
+            <returns>A list of products.</returns>
+        </member>
+        <member name="M:DotNetTechnicalDocumentation.Controllers.ProductsController.GetProductById(System.Int32)">
+            <summary>
+            Retrieves a product by its identifier.
+            </summary>
+            <param name="id">The product identifier.</param>
+            <returns>The product or a 404 response.</returns>
+        </member>
+        <member name="T:DotNetTechnicalDocumentation.Models.Product">
+            <summary>
+            Represents a product in the application.
+            </summary>
+        </member>
+        <member name="P:DotNetTechnicalDocumentation.Models.Product.Id">
+            <summary>
+            Gets or sets the unique product identifier.
+            </summary>
+        </member>
+        <member name="P:DotNetTechnicalDocumentation.Models.Product.Name">
+            <summary>
+            Gets or sets the product name.
+            </summary>
+        </member>
+        <member name="P:DotNetTechnicalDocumentation.Models.Product.Price">
+            <summary>
+            Gets or sets the product price.
+            </summary>
+        </member>
+    </members>
+</doc>

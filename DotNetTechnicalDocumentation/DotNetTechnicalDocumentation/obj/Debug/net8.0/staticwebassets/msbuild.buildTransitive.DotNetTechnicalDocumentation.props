@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\DotNetTechnicalDocumentation.props" />
+</Project>
